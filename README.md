@@ -1,23 +1,5 @@
-import 'package:flutter/material.dart';
-void main() {
-  runApp(const MyApp());
-}
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text("Hello World"),
-        ),
-        body: const Center(
-          child: Text(
-            "Hello Flutter!",
-            style: TextStyle(fontSize: 24),
-          ),
-        ),
-      ),
-    );
-  }
-}
+Experiment 1: Introduction to Flutter & Hello World App
+Aim:  
+To study Flutter SDK, Android Studio setup, and create a basic Hello World Flutter application.
+Description:
+Flutter is an open-source UI toolkit by Google used to build natively compiled applications for mobile, web, and desktop from a single codebase.
